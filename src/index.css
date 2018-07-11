@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+.navbar-brand {
+  font-size: 2.5em;
+  padding-left: 25%;
+}
+.form-group {
+align-self: auto;
+font-size: 1.8em;
+}
+li.points1 {
+  font-size: 3em;
+  font-family: "Cabin Sketch", cursive;
+
+}
+button, input, optgroup, select, textarea {
+  width: 100%;
+}
+
+h3, .h3 {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-size: 1.5em;
+}
+a.btn btn-primary btn-lg{
+  width: 100%;
+}
+
+h2, .h2 {
+  font-size: 2.5em;
+}
+
+.btn-primary{
+  background-color: bisque;
+ color: black 
+}
