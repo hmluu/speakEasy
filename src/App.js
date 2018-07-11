@@ -43,7 +43,7 @@ class App extends Component { //one fetch is for component did mount, another fe
     return (
       <div className="App">
        <Navbar color="navbar navbar-expand-lg navbar-dark bg-dark" light expand="lg">
-          <NavbarBrand href="/">CHATTY, taking the ARGGH out of ARGument.</NavbarBrand>
+          <NavbarBrand href="/">SpeakEasy, taking the ARGGH out of ARGument.</NavbarBrand>
           </Navbar>
         
         <Container>

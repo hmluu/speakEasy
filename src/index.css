@@ -38,3 +38,11 @@ h2, .h2 {
   background-color: bisque;
  color: black 
 }
+
+.voiceSelection {
+  padding-bottom: 3%;
+}
+
+Link {
+  width: 100%;
+}

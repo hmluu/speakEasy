@@ -45,7 +45,7 @@ voiceChanged = (event) => {
      return(
         <div className='form-group'>
         <h3>Select Your Preferred Voice:</h3>
-      <form>
+      <form className="voiceSelection">
       <select 
       onChange={this.voiceChanged}
       id="voice"
@@ -55,7 +55,7 @@ voiceChanged = (event) => {
       })}
       </select>
       </form>
-      <Link className="btn btn-primary btn-lg" to={`/texts/${this.state.selectedVoice}`}>Go!</Link>
+      <Link className="btn btn-primary btn-lg btn-block" to={`/texts/${this.state.selectedVoice}`}>Go!</Link>
         </div>
      )
  }
